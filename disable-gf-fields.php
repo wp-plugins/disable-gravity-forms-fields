@@ -4,8 +4,8 @@
  * Plugin URI: http://engagewp.com
  * Description: Disable form fields by adding the CSS class "disabled"
  * Author: Ren Ventura - EngageWP
- * Author URI: http://engagewp.com
- * Version 1.0
+ * Author: URI: http://engagewp.com
+ * Version: 1.0
  * License: GPL 2.0
  */
 
