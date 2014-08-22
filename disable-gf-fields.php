@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Disable Gravity Forms Fields
- * Plugin URI: http://engagewp.com
- * Description: Disable form fields by adding the CSS class "disabled"
- * Author: Ren Ventura - EngageWP
- * Author: URI: http://engagewp.com
- * Version: 1.0
+ * Plugin URI: http://engagewp.com/disable-gravity-forms-fields-plugin/
+ * Description: Disable form fields by adding the CSS class "disabled". Fields can also be set to the readonly attribute with a class of "readonly".
+ * Author: Ren Ventura
+ * Author URI: http://engagewp.com
+ * Version: 1.1
  * License: GPL 2.0
  */
 
