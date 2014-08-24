@@ -58,8 +58,8 @@ This plugin is very simple so it's unlikely you'll need support. If you do have 
 
 == Changelog ==
 
-= 1.0 =
-* Launch version
-
 = 1.1 =
 * Added readonly attribute support
+
+= 1.0 =
+* Launch version
