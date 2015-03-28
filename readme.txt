@@ -1,7 +1,8 @@
 === Disable Gravity Forms Fields ===
 Contributors: EngageWP
 Tags: Gravity Forms
-Stable tag: 1.1
+Tested up to: 4.2
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +38,7 @@ add_action('init', 'rv_load_google_jquery');
 function rv_load_google_jquery() {
 	if (!is_admin()) {
 		wp_deregister_script('jquery');
-		wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', false, '1.11.1');
+		wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js', false, '1.11.2');
 	}
 }
 `
@@ -50,13 +51,16 @@ Both attributes set a field to be uneditable by the user. This means that the fi
 
 = Do you offer support for this plugin? =
 
-This plugin is very simple so it's unlikely you'll need support. If you do have any questions, feel free to <a href="http://engagewp.com/contact" target="_blank">email me</a>. 
+This plugin is very simple so it's unlikely you'll need support. If you do have any questions, feel free to <a href="http://www.engagewp.com/contact" target="_blank">email me</a>. 
 
 == Screenshots ==
 
 1. Gravity Forms Advanced Tab w/ a CSS class of "disabled". This will set the field's attribute to disabled. Alternatively, you can enter the CSS class "readonly" to set the attribute to readonly.
 
 == Changelog ==
+
+= 1.2 =
+* Added the jQuery dependency to wp_enqueue_scripts() call
 
 = 1.1 =
 * Added readonly attribute support
