@@ -2,7 +2,7 @@
 Contributors: EngageWP
 Tags: Gravity Forms
 Tested up to: 4.2
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,10 @@ This plugin is very simple so it's unlikely you'll need support. If you do have 
 1. Gravity Forms Advanced Tab w/ a CSS class of "disabled". This will set the field's attribute to disabled. Alternatively, you can enter the CSS class "readonly" to set the attribute to readonly.
 
 == Changelog ==
+
+= 1.3 =
+* Wrapped jQuery dependency in array in the enqueue call
+* Removed some specificity from the jQuery selectors (will work for any <code>input</code> with the appropriate classes)
 
 = 1.2 =
 * Added the jQuery dependency to wp_enqueue_scripts() call
